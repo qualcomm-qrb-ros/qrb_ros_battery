@@ -107,7 +107,8 @@ void BatteryStatsReader::pack_battery_state_msg(std::map<std::string, std::strin
   msg->cell_temperature.push_back(safestof(data["temp"]));     // 0
 }
 
-std::map<std::string, std::string> BatteryStatsReader::string_to_map(std::unique_ptr<std::string> str)
+std::map<std::string, std::string> BatteryStatsReader::string_to_map(
+    std::unique_ptr<std::string> str)
 {
   std::map<std::string, std::string> result;
   std::istringstream iss(*str);
