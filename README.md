@@ -180,12 +180,13 @@ serial_number: battery_stats
 Install dependencies `ros-dev-tools`:
 
 ```bash
-sudo add-apt-repository ppa:ubuntu-qcom-iot/qcom-noble-ppa
+sudo add-apt-repository ppa:ubuntu-qcom-iot/qcom-ppa
 sudo add-apt-repository ppa:ubuntu-qcom-iot/qirp
 sudo apt update
 
-sudo apt install libdbus-1-dev \
-  ros-dev-tools
+sudo apt install qcom-battery-service \
+  libdbus-1-dev \
+  ros-dev-tools \
 ```
 
 ### Build
