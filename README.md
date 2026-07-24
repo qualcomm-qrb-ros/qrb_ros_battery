@@ -1,7 +1,6 @@
 <div align="center">
   <h1>QRB ROS Battery</h1>
   <p align="center">
-    <img src="https://s7d1.scene7.com/is/image/dmqualcommprod/rb3gen2-dev-kits-hero-7" alt="Qualcomm QRB ROS" title="Qualcomm QRB ROS" />
   </p>
   <p>ROS Packages for Battery State on Qualcomm Robotics Platforms</p>
 
@@ -90,11 +89,9 @@ The `Battery Service` is a background service designed to provide APIs for clien
 <table >
   <tr>
     <th>Development Hardware</th>
-    <td>Qualcomm Dragonwing™ RB3 Gen2</td>
   </tr>
   <tr>
     <th>Hardware Overview</th>
-    <th><a href="https://www.qualcomm.com/developer/hardware/rb3-gen-2-development-kit"><img src="https://s7d1.scene7.com/is/image/dmqualcommprod/rb3-gen2-carousel?fmt=webp-alpha&qlt=85" width="180"/></a></th>
   </tr>
 </table>
 
